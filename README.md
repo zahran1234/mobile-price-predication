@@ -24,4 +24,15 @@ We have applied a range of machine learning models to predict mobile prices accu
 3. **Random Forest**
 4. **K-Nearest Neighbors (KNN)**
 5. **Naive Bayes**
-6. **Linear Support Vector Mach
+6. **Linear Support Vector Machine (LSVM)**
+7. **Neural Network**
+
+## Hyperparameter Optimization
+
+To fine-tune our models, we employed the GridSearch algorithm. This approach enabled us to identify the best hyperparameters for each model, enhancing their performance and accuracy.
+
+## Conclusion
+
+After a thorough comparison of the accuracies of all the applied models, we discovered that the Linear Support Vector Machine (LSVM) emerged as the most efficient classifier for this project. This finding underscores the importance of not just model selection but also the fine-tuning of model parameters in predictive analytics.
+
+Thank you for visiting our project. We hope our work inspires and aids in your endeavors in the realm of predictive modeling and machine learning!
