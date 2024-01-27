@@ -1,40 +1,27 @@
-# mobile-price-predication
-## The Data Preprocessing
-```
+# Mobile Price Prediction Project
 
-1 Description of Data
+Welcome to the "Mobile Price Prediction" repository, where we delve into the fascinating world of predictive modeling to forecast mobile phone prices. This project encompasses a comprehensive approach to data preprocessing, model application, and hyperparameter optimization, culminating in the identification of the most effective predictive model.
 
-2 Info about the data
+## Data Preprocessing Overview
 
-4 Check if the data has missing values or not
+Data preprocessing is a critical step in ensuring the accuracy and effectiveness of our models. Our process includes:
 
-5. Detecting outliers
+1. **Description of Data**: Understanding the structure and type of data we are working with.
+2. **Data Information**: Gaining insights into the data, including the number of features and records.
+3. **Missing Value Analysis**: Checking for and addressing missing values in the dataset.
+4. **Outlier Detection**: Identifying and handling outliers that can skew our model predictions.
+5. **Correlation Analysis**: Exploring the relationships between different attributes in the data.
+6. **Feature Selection**: Employing SelectKBest for choosing the most significant features for our models.
+7. **Data Balancing Check**: Assessing if the dataset is balanced and taking steps to address any imbalance.
+8. **Target Correlation**: Identifying the attributes most correlated with the Price Range, our target variable.
 
-6 The Correlation between the attributes
+## Applied Models
 
-7 Features Selection using SelectKBest
+We have applied a range of machine learning models to predict mobile prices accurately:
 
-8 CHeck if the data is balanced or not
-
-9 The attributes that are most correlated with the Price Range ( Our target )
-```
-## Applied Models : 
-```
-(1) Logistic Regression
-
-(2) Decision Tree(gini)
-
-(3) Random Forest
-
-(4) KNN
-
-(5) Naive Bayes
-
-(6) LSVM
-(7) Neural network
-
-```
-
-## Hyperparameters W used the GridSearch algorithm to select the best hyperparameters for our models and get the best result for every model we used.
-
-## Conclusion We compared the accuracies of all the models and found that LSVM is the best classifier for our project
+1. **Logistic Regression**
+2. **Decision Tree (Gini Index)**
+3. **Random Forest**
+4. **K-Nearest Neighbors (KNN)**
+5. **Naive Bayes**
+6. **Linear Support Vector Mach
